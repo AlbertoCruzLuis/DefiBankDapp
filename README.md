@@ -9,7 +9,7 @@
 > Defi Bank is a dapp created for ethereum 101 course of cadena.dev
 
 <a href="https://defibank.vercel.app/" target="_blank">
-    <img alt="DefiBank: Landing" src="assets/LandingPage.png" />
+    <img alt="DefiBank: Landing" src="public/assets/LandingPage.png" />
 </a>
 
 ### ✨ [Demo](https://defibank.vercel.app/)
