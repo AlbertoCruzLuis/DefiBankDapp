@@ -21,7 +21,7 @@ export const PageLayout: FC<PageLayoutProps> = ({ children }) => {
   return (
     <Background>
       <div className="flex flex-col min-h-screen xl:container xl:mx-auto">
-        <header className="z-10 flex items-center justify-between px-4 py-4 xl:px-8">
+        <header className="z-10 flex items-center min-h-[76px] justify-between px-4 py-4 xl:px-8">
           <div className="flex divide-x divide-gray-500">
             <CustomLink className="pr-5" href="/">
               <Logo />
