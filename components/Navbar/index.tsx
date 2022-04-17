@@ -1,7 +1,7 @@
-import { NavItem } from "./NavItem"
 import { useRouter } from "next/router"
-import { v4 as uuidv4 } from "uuid"
 import { FC } from "react"
+import { v4 as uuidv4 } from "uuid"
+import { NavItem } from "./NavItem"
 
 type NavbarProps = {
   routes: Array<{ name: string, url: string, isPrivate: boolean }>,

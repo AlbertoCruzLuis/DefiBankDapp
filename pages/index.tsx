@@ -1,6 +1,10 @@
+import { sideAnimationRightVariants } from "animations"
 import { ContractCard } from "components/ContractCard"
 import { TransactionCard } from "components/TransactionCard"
+import { BANK_ADDRESS } from "config"
 import { ToolsSection } from "content/ToolsSection"
+import { ethers } from "ethers"
+import { motion } from "framer-motion"
 import { useBank } from "hooks/useBank"
 import type { NextPage } from "next"
 import Head from "next/head"
@@ -8,10 +12,6 @@ import Image from "next/image"
 import { useRef } from "react"
 import { BsArrowUpRight, BsMouse } from "react-icons/bs"
 import { middleStringTruncate } from "utils/middleStringTruncate"
-import { ethers } from "ethers"
-import { BANK_ADDRESS } from "config"
-import { motion } from "framer-motion"
-import { sideAnimationRightVariants } from "animations"
 
 enum OperationType {
   Deposit,

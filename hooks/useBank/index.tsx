@@ -1,12 +1,12 @@
-import { BANK_ADDRESS, DEFI_BANK_GRAPH_URL } from "config"
-import { useContract } from "hooks/useContract"
-import BankContract from "hardhat/artifacts/contracts/Bank.sol/Bank.json"
-import { Contract, ethers } from "ethers"
-import toast from "react-hot-toast"
 import { useWeb3 } from "@3rdweb/hooks"
-import { useQuery, useMutation } from "react-query"
-import { GET_LAST_TRANSFERS } from "queries"
+import { BANK_ADDRESS, DEFI_BANK_GRAPH_URL } from "config"
+import { Contract, ethers } from "ethers"
 import { GraphQLClient } from "graphql-request"
+import BankContract from "hardhat/artifacts/contracts/Bank.sol/Bank.json"
+import { useContract } from "hooks/useContract"
+import { GET_LAST_TRANSFERS } from "queries"
+import toast from "react-hot-toast"
+import { useQuery, useMutation } from "react-query"
 
 const graphQLClient = new GraphQLClient(DEFI_BANK_GRAPH_URL)
 

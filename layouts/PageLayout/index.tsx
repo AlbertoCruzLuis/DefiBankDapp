@@ -1,9 +1,9 @@
-import { FC, ReactNode, useState } from "react"
 import { Background } from "components/Background"
 import { CustomLink } from "components/CustomLink"
 import { Footer } from "components/Footer"
 import { Logo } from "components/Logo"
 import { Wallet } from "components/Wallet"
+import { FC, ReactNode, useState } from "react"
 import { HiMenu } from "react-icons/hi"
 import Popup from "reactjs-popup"
 

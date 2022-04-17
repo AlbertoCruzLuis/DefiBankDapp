@@ -30,6 +30,15 @@
         "quotes": "off",
         "@typescript-eslint/quotes": ["error", "double"],
         "react/react-in-jsx-scope": "off",
-        "@typescript-eslint/no-explicit-any": ["off"]
+        "@typescript-eslint/no-explicit-any": ["off"],
+        "import/order": [
+          "error",
+          {
+            "groups": ["builtin", "external", "parent", "sibling", "index"],
+            "alphabetize": {
+              "order": "asc"
+            }
+          }
+        ]
     }
 }

@@ -1,9 +1,9 @@
-import { forwardRef, useState } from "react"
-import { FiMinusSquare, FiPlusSquare } from "react-icons/fi"
-import { AiOutlineLoading3Quarters } from "react-icons/ai"
 import { BANK_ADDRESS } from "config"
+import { forwardRef, useState } from "react"
 import CopyToClipboard from "react-copy-to-clipboard"
 import toast from "react-hot-toast"
+import { AiOutlineLoading3Quarters } from "react-icons/ai"
+import { FiMinusSquare, FiPlusSquare } from "react-icons/fi"
 import { UseMutationResult } from "react-query"
 
 interface IContractCardProps {

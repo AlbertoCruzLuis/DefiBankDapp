@@ -1,7 +1,7 @@
-import { FC } from "react"
 import { CustomLink } from "components/CustomLink"
-import toast from "react-hot-toast"
 import { useAuth } from "hooks/useAuth"
+import { FC } from "react"
+import toast from "react-hot-toast"
 
 type NavItemProps = {
   name: string,
