@@ -4,7 +4,6 @@ export default function Document () {
   return (
     <Html>
       <Head>
-        <title>DefiBank</title>
         <meta name="title" content="DefiBank"/>
         <meta name="description" content="Defi Bank is a dapp created for ethereum 101 course of cadena.dev"/>
 
