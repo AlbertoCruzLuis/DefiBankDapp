@@ -11,24 +11,11 @@ import { middleStringTruncate } from "utils/middleStringTruncate"
 import { ethers } from "ethers"
 import { BANK_ADDRESS } from "config"
 import { motion } from "framer-motion"
+import { sideAnimationRightVariants } from "animations"
 
 enum OperationType {
   Deposit,
   Withdraw
-}
-
-const sideAnimationLeftVariants = {
-  hidden: {
-    x: "-100vw"
-  },
-  visible: {
-    x: "100vw",
-    transition: {
-      ease: "linear",
-      duration: 25,
-      repeat: Infinity
-    }
-  }
 }
 
 const Home: NextPage = () => {
@@ -89,7 +76,7 @@ const Home: NextPage = () => {
               withdrawMutation={withdrawMoneyMutation} />
             <motion.div
               className="absolute left-0 right-0 flex gap-24 mx-auto top-4"
-              variants={sideAnimationLeftVariants}
+              variants={sideAnimationRightVariants}
               initial="hidden"
               animate="visible"
             >
